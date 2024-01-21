@@ -11,6 +11,11 @@
 
 # Function
 # Given 1
+first_given_number_one = 20
+first_given_number_two = 30
 # Given 2
+second_given_number_one = 40
+second_given_number_two = 30
 # Result to the given 1
 # Result to the given 2
+
