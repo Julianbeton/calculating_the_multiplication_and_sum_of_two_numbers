@@ -10,12 +10,24 @@
 # psuedocode
 
 # Function
+def product_and_sum(number_one, number_two):
+    product = number_one * number_two
+    if product <= 1000:
+        return product
+    else:
+        return (number_one + number_two)
+
 # Given 1
 first_given_number_one = 20
 first_given_number_two = 30
+
 # Given 2
 second_given_number_one = 40
 second_given_number_two = 30
+
 # Result to the given 1
+result = product_and_sum(first_given_number_one, first_given_number_two)
+
 # Result to the given 2
+result = product_and_sum(second_given_number_one, second_given_number_two)
 
