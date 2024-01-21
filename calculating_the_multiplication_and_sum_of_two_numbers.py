@@ -27,7 +27,10 @@ second_given_number_two = 30
 
 # Result to the given 1
 result = product_and_sum(first_given_number_one, first_given_number_two)
+print("\033[1;32;40m The product of two numbers in given 1 is", result)
 
 # Result to the given 2
 result = product_and_sum(second_given_number_one, second_given_number_two)
+print("\033[1;32;40m The sum of two numbers in given 2 is", result)
+
 
